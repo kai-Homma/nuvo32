@@ -2,7 +2,7 @@ import boto3
 import json
 
 def lambda_handler(event, context):
-    endpoint = 'https://a1iy0b5p3drh3r-ats.iot.ap-northeast-1.amazonaws.com'
+    endpoint = 'https://自分のエンドポイントを記載すること-ats.iot.ap-northeast-1.amazonaws.com'
     print("Received event: ")
     command_value = event.get('command')
     
